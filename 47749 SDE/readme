@@ -1,0 +1,1651 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{romannum}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{tfrupee}
+\usepackage{textcomp}
+\usepackage{fontawesome5}
+
+% Add this in preamble
+\usepackage{amssymb}   % for \bigstar
+\usepackage{pifont}    % for \ding
+\usepackage[super]{nth}
+\usepackage{tabu,marvosym,array,amsfonts}
+\usepackage{multicol}
+
+\newlength\boxwid
+\definecolor{mygrey}{rgb}{0.388, 0.388, 0.388}
+\definecolor{lgrey}{rgb}{0.86, 0.86, 0.86}
+
+\let\oldtextbullet=\textbullet
+\def\textbullet{%
+    \settowidth{\boxwid}{\ \indent\oldtextbullet\ }%
+    \hangindent=\boxwid%
+    \oldtextbullet}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\setlist[itemize]{noitemsep, topsep=0pt}
+\addtolength{\parskip}{-1.5mm}
+
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!50!white,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=3pt,
+    arc=0pt,
+    outer arc=0pt,
+}
+
+\setlength{\parindent}{0pt}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+\begin{flushleft}
+    \noindent {\huge\textbf{Jiyanshu Dhaka}}
+\end{flushleft}
+\vspace{-1.4mm}
+
+Final Year Undergraduate \hfill{\faEnvelope} \href{mailto:jiyanshudhaka2003@gmail.com}{jiyanshudhaka2003@gmail.com}  
+\\
+Major: Statistics and Data Science\hfill{\faLinkedin} \href{https://www.linkedin.com/in/jiyanshu-dhaka-146165256/}{Jiyanshu Dhaka} $|$ {\faEnvelope} \href{mailto:jiyanshud22@iitk.ac.in}{jiyanshud22@iitk.ac.in} 
+\\Minors: Computer Science - Machine Learning , Cognitive Sciences
+\hfill\hfill\href{https://github.com/jiyanshud22} {\faGithub \small jiyanshud22} $|$ {\faPhone}+91-9413186425
+\vspace{-5.pt}
+\\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\vspace{-10.5mm}
+
+
+
+
+
+
+
+
+% \begin{document}
+% \begin{flushleft}
+%     \noindent {\huge\textbf{Jiyanshu Dhaka}}
+% \end{flushleft}
+% \vspace{-1.4mm}
+% Senior Undergraduate at Indian Institute of Technology Kanpur  
+% \hfill{\faLinkedin} \href{https://www.linkedin.com/in/jiyanshu-dhaka-146165256/}{Jiyanshu Dhaka} $|$ {\faEnvelope} \href{mailto:jiyanshud22@iitk.ac.in}{jiyanshud22@iitk.ac.in}
+% \\Department of Statistics and Data Science \hfill\hfill\href{https://github.com/jiyanshud22} {\faGithub \small jiyanshud22} $|$ {\faPhone}+91-9413186425
+% \vspace{-5.pt}
+% \\
+% \noindent\rule[0.5ex]{\linewidth}{1pt}
+% \vspace{-10.5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{ACADEMIC QUALIFICATIONS}}\end{tcolorbox}}}
+\vspace{-3.57mm}
+
+\bgroup
+\def\arraystretch{1.15}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4.5cm}|p{8.cm}|p{2.5cm}|}
+\hline 
+\centering{\textbf{Year}} & \centering{\textbf{Degree/Certificate}} & \centering{\textbf{Institute}} &  \centering \textbf{CPI/$\%$} \tabularnewline
+\hline 
+\centering{2022 - present} & \centering{Bachelor's} & \centering{Indian Institute of Technology Kanpur} & \centering{\textbf{8.1/10}} \tabularnewline 
+\hline
+\centering{2021} & \centering{RBSE (\Romannum{12})} & \centering{Disha Delphi Senior Secondary School } & \centering \textbf{97.8$\%$} \tabularnewline
+\hline
+\centering{2018} & \centering{CBSE (\Romannum{10})} & \centering{Gurukul International School} & \centering{\textbf{94.8$\%$}} \tabularnewline
+\hline
+\end{tabular}
+\end{center}
+\egroup
+\vspace{-5.05mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{SCHOLASTIC ACHIEVEMENTS}}\end{tcolorbox}}}
+
+\vspace{-3.25mm}
+\begin{itemize}
+
+
+\item \textbf{KVPY(SB)} Scholar  2021 with  \textbf{All  India  Rank 28}   in common rank list conducted by Indian Institute of Science, Bangalore
+\item \textbf{KVPY(SA)} Scholar 2019 with \textbf{All  India  Rank 832} in common rank list conducted by Indian Institute of Science, Bangalore
+
+\item Secured \textbf{All India Rank 3846} in \textbf{Joint Entrance Exam (Advanced) 2022}  among the 0.16 million shortlisted candidates
+
+
+
+\item Secured \textbf{All India Rank 4025} in \textbf{Joint Entrance Exam  (Main) 2022} among more than 1 million appeared candidates
+
+
+
+
+\item Awarded the \textbf{Reliance Foundation UG Scholarship}, a merit-cum-means scholarship granted to 5,000 students nationwide
+
+
+
+
+\item Achieved \textbf{A*} in \textbf{Human Centered Computing} and \textbf{Computational Cognitive Science} for \textbf{Outstanding} performance
+
+
+\item Achieved \textbf{A or higher grades} in \textbf{14} mandatory or elective courses at \textbf{IIT Kanpur} for \textbf{Excellent academic performance} 
+
+
+\end{itemize}
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{PROGRAMMING EXPERIENCE}}\end{tcolorbox}}}
+\vspace{-4mm}
+\begin{itemize}
+
+
+
+
+
+\item Achieved \textbf{Rating of 1600+ (Codeforces Expert)} with \textbf{Global Rank 95} in Round 1035 $|$ Profile :  \href{https://codeforces.com/profile/Imvengeance3846}{\textbf{Imvengeance3846}}
+
+
+
+
+
+\item Active on Platforms: 
+\textbf{LeetCode}: (\href{https://leetcode.com/u/Jiyanshu_Dhaka/}{Jiyanshu\_Dhaka}) $|$ 
+\textbf{Kaggle}: (\href{https://www.kaggle.com/jiyanshudhaka}{jiyanshudhaka}) $|$ 
+\textbf{IB}: (\href{https://www.interviewbit.com/profile/jiyanshu-dhaka/}{jiyanshu-dhaka}) $|$ 
+\textbf{GFG}: (\href{https://www.geeksforgeeks.org/user/jiyanshudifcz/}{jiyanshudifcz})
+
+
+
+
+
+
+
+\end{itemize}
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}\textcolor{black}{\textsc{WORK EXPERIENCE}}\end{tcolorbox}}}
+\vspace{-6mm}
+
+
+
+
+
+\begin{tcolorbox}[colback=gray!30]\textcolor{black}{\textbf{CHAMPHUNT INC} $|$ \textit{Machine Learning Internship} \hfill (\textit{Sep'24--Jan'25})}
+\end{tcolorbox}
+\vspace{-4mm}
+\begin{itemize}
+    
+    
+
+    \item Built \textbf{Hybrid Post Recommender} (content + collaborative filtering), boosting relevance by \textbf{28\%} \& engagement by \textbf{3 min}
+
+    \item Built \textbf{Q-Learning friend recommender} using Q-table updates from user interactions, achieving \textbf{78\%} user acceptance rate
+    \item Integrated \textbf{location match, follower overlap}, \& \textbf{noise factors} with weight tuning, boosting \textbf{personalization} for \textbf{5k} users
+  
+\item Built \textbf{Cricket Ball Detection Algorithm} using \textbf{Contour Detection + YOLOv8}, \textbf{HSV masking \&  temporal checks}
+
+    \item Applied \textbf{Gaussian blur} \& \textbf{morphological operation} to reduce noise; Used \textbf{Optical Flow} \& \textbf{Kalman Filter} for smoothing
+
+      \item Automated extraction of \textbf{ball–pitch contact frames; classifying deliveries} as yorker, bouncer, etc. to improve analysis 
+
+
+    
+  
+
+%\item Validated on \textbf{5,000+ video frames}, achieving  \textbf{$\sim$81\%} accuracy
+\end{itemize}
+\vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{tcolorbox}[colback=gray!30]\textcolor{black}{\textbf{SALTMINE USA INC}} $|$ \textit{Workspace Design Automation Intern} $|$ \href{https://saltmine-3.vercel.app/}{\faGlobe}  
+\hfill (\textit{Feb'25–Jul'25})
+\end{tcolorbox}
+\vspace{-4mm}
+
+\begin{itemize}
+
+     \item Built \textbf{Workspace Stacking algorithm} using \textbf{greedy allocation}, \textbf{proportional distribution}, \& \textbf{adjacency modeling}
+    \item Generated \textbf{85\%+ valid} stack plans, with \textbf{$\sim$ 90\% match} to manual outputs, reducing manual workload by \textbf{($\sim$3--4 hrs/day)}  
+
+    \item Built grid-based zoning engine using \textbf{ILP} optimization to satisfy adjacency, periphery, diagonal, and block-pattern constraints  
+    \item Implemented \textbf{MCMC} + \textbf{combinatorial optimization} based sampling to optimize \textbf{objective functions} across constraints  
+    \item Developed zoning web app with \textbf{NLP-driven interface} translating custom rules into constraints and visualized grid layouts  
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{PROJECTS}}\end{tcolorbox}}}
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\begin{tcolorbox}[colback=gray!30]\textbf{Passive Image Forgery Detection} $|$ \textit{Prof. Nisheeth Srivastava} $|$  
+\href{https://github.com/jiyanshud22/Forgery-Detection}{\faGithub}\hfill\hfill\textit{(Dec'23--Feb'24)}\end{tcolorbox}}
+\vspace{-4mm}
+\begin{itemize}
+ 
+  \item Implemented \textbf{Error Level Analysis} with \textbf{HSV contour analysis} to expose tampered regions via pixel-level inconsistencies
+  
+  \item Detected \textbf{fake medical scans, X-rays, and morphed reports}, aligning with ongoing \textbf{cybersecurity forensics research}
+  \item Classified \textbf{507 bonafide} and \textbf{210 morph} images as \textbf{original or forged}, achieving \textbf{80.1\%} and \textbf{78.7\%} accuracy respectively
+
+\end{itemize}
+
+\vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{tcolorbox}[colback=gray!30]{\textbf{Microsoft Boggle Solver}} $|$ \textit{Self Project} $|$ 
+\href{https://github.com/jiyanshud22/Microsoft-Boggle-Solver}{\faGithub}
+\hfill\hfill(\textit{Jun'25–Jul'25})
+\end{tcolorbox}
+\vspace{-4mm}
+\begin{itemize}
+    \item Implemented a \textbf{backtracking algorithm} on an $n \times n$ matrix to generate all valid solutions for the Microsoft Boggle game
+    \item Integrated a \textbf{Trie-based dictionary} with  \textbf{40,000+} word entries for efficient word search and validation in the  \textbf{Boggle grid}
+    \item Designed reusable components in \textbf{C++ Object-Oriented style} including Trie header file and random board generator class
+\end{itemize}
+\vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ---------------- Cells ----------------
+% Best fit: ML / Computational Biology / Data Science / Bioinformatics.  
+% Not relevant: Finance, Pure SDE.  
+
+
+\begin{tcolorbox}[colback=gray!30]
+\textbf{Cells} $|$ \textit{Course Project MTH312} $|$ \textit{Prof. Dootika Vats}  $|$ 
+\href{https://www.kaggle.com/competitions/assignment-data-science-lab/leaderboard}{\faKaggle} $|$
+\href{https://github.com/jiyanshud22/MTH312_Group_Project_4}{\faGithub}
+\hfill (\textit{Feb'25--Mar'25})
+\end{tcolorbox}
+\vspace{-4mm}
+
+\begin{itemize}
+  \item Achieved the highest \textbf{ARI score of 0.87981} in class by integrating multi-omics data using a \textbf{Dual-branch Autoencoder}
+  \item Clustered 10,000 cells into 8 distinct types via \textbf{spectral clustering}, outperforming \textbf{PCA+CCA} by 79.6\% in \textbf{ARI} metrics
+
+  \item Visualized cell latent space with \textbf{UMAP}, revealing separation of \textbf{cell type} and overlapping modalities across 2 omics layers
+
+\end{itemize}
+\vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ---------------- Gale-Shapley Algorithm ----------------
+% Best fit: Algorithms / Quantitative Research / SDE (competitive programming style).  
+% Not relevant: Policy, Bio/Health, Finance (unless research-oriented).  
+
+\begin{tcolorbox}[colback=gray!30]
+{\textbf{Gale-Shapley Algorithm}} $|$ \textit{Self Project} $|$ 
+\href{https://github.com/jiyanshud22/Gale-Shapley-Algorithm}{\faGithub}
+\hfill\hfill(\textit{Jan'25--Mar'25})
+\end{tcolorbox}
+\vspace{-4mm}
+\begin{itemize}
+    \item Implemented the \textbf{Gale-Shapley} stable matching algorithm using \textbf{C++} to generate and analyze \textbf{1000+ random datasets}
+
+    \item Conducted \textbf{probabilistic simulations} in \textbf{R} showing proposals concentrated near \textbf{1.5n log n}, matching with \textbf{nHn bound}
+
+    \item Analyzed that \textbf{runtime decreases} from worst-case \textbf{\boldmath $O(n^2)$} to probabilistic \textbf{\boldmath $O(n \log n)$}, applying coupon collector arguments
+    
+ 
+\end{itemize}
+%\vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30]{\textbf{Cryptographic Techniques }} $|$ \textit{Course Project CS670 $|$ Prof. Adithya Vadapalli $|$ \href{https://github.com/jiyanshud22/Cryptography-CS670}{\faGithub}}
+% \hfill\hfill(\textit{Jan'24--Apr'24})
+% \end{tcolorbox}
+% \vspace{-4mm}
+% \begin{itemize}
+
+%     \item Designed and Implemented \textbf{Authenticated PIR} protocols like \textbf{Two-Server PIR, Computational PIR} and \textbf{Secure PIR} 
+    
+%     \item Enhanced \textbf{Garbled Circuits} with \textbf{Point-and-Permute optimizations}, analyzing gate efficiencies and encryption strategy
+    
+%     \item Explored \textbf{Oblivious Data Structures}, employing \textbf{Secure MPC} to ensure confidentiality in collaborative data processing
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{TECHNICAL SKILLS}}\end{tcolorbox}}}
+\vspace{-6mm}
+\noindent
+\begin{center}
+\begin{tabular}{p{0.98\linewidth}}
+C \textbar{} C++ \textbar{} R \textbar{} Python \textbar{} SQL \textbar{} HTML \textbar{} CSS \textbar{} \LaTeX \textbar{} Git \textbar{} GitHub \textbar{} Linux \textbar{} MongoDB  \textbar{} OpenAI \textbar{} NumPy \textbar{} Pandas \textbar{} scikit-learn \\
+\end{tabular}
+\end{center}
+\vspace{-5mm}
+
+
+% {\textbf{\begin{tcolorbox}{\textsc{TECHNICAL SKILLS}}\end{tcolorbox}}}
+% \vspace{-5mm}
+% \noindent
+% \begin{center}
+% \begin{tabular}{p{0.98\linewidth}}
+% C \textbar{} C++ \textbar{} Python \textbar{} R \textbar{} SQL \textbar{} HTML \textbar{} CSS \textbar{} \LaTeX \textbar{} NumPy \textbar{} Pandas \textbar{} scikit-learn \textbar{} TensorFlow \textbar{} PyTorch \textbar{} statsmodels \textbar{} tseries \textbar{} pracma \textbar{} Tidyverse \textbar{} ggplot2 \textbar{} R Shiny \textbar{} Rcpp \textbar{} Rvest \textbar{} RMarkdown \textbar{} Quarto \textbar{} Profvis \textbar{} Matplotlib \textbar{} Plotly \textbar{} RStudio\\
+% \end{tabular}
+% \end{center}
+% \vspace{-5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{tcolorbox}\textbf{\textsc{RELEVANT COURSES}} \hfill 
+{\small\textit{* $\rightarrow$ A, ** $\rightarrow$ A*}\end{tcolorbox}
+\vspace{-3.8mm}
+\bgroup
+\def\arraystretch{1.15}
+\begin{center}
+\begin{tabular}{|p{6.2cm}|p{6.1cm}|p{6.3cm}|}
+\hline
+Data Structure \& Algorithm & Introduction to Machine Learning*&AI Techniques in Data Mining*  \\ 
+\hline
+Data Science Lab (\Romannum{1}),(\Romannum{2}) \& (\Romannum{3})* & Human Centered Computing**   & Computational Cognitive Science**\\ 
+\hline
+ Matrix Algebra \& Linear Estimation* &  Cryptographic Techniques  & Fundamentals of Computing (\Romannum{1}) \& (\Romannum{2}) \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% {\textbf{\begin{tcolorbox}{\textsc{POSITIONS OF RESPONSIBILITY}}\end{tcolorbox}}}
+% % \begin{itemize}
+% \vspace{-6mm}
+
+
+% \begin{tcolorbox}[colback=gray!30,height=6mm]
+%     \textbf{Executive $|$} \textit{Stamatics Club, IITK} $|$ \href{https://mathemania2023.vercel.app/index.html}{\faGlobe}
+%     \href{https://github.com/jiyanshud22/Mathemania-2023}{\faGithub}
+%     \hfill\hfill(\textit{Jul'23--Apr'24})
+
+% \end{tcolorbox}% \end{itemize}
+% \vspace{-4mm}
+% \begin{itemize}
+% \item Developed and organized the \textbf{website and scoreboard} for \textbf{Stamatics' event Mathemania'23} using \textbf{HTML}, \textbf{CSS} \& \textbf{JS}
+
+% \end{itemize}
+% \vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30,height=6mm]\textbf{Web Secretary $|$} \textit{Community Welfare Cell, IITK $|$ \href{https://www.iitk.ac.in/cwc/}{\faGlobe}}\hfill\hfill(\textit{Jul'23--Apr'24})
+% \end{tcolorbox}
+% \vspace{-4mm}
+% \begin{itemize}
+% \item Developed and maintained the \textbf{official CWC website}, enabling events, workshops, and sessions like VYLC, Cloth Donation 
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{POSITIONS OF RESPONSIBILITY}}\hfill\hfill(\textit{Jul'23--Apr'24})\end{tcolorbox}}}
+
+\vspace{-4mm}
+\bgroup
+\def\arraystretch{1.15}
+\begin{center}
+\begin{tabular}{|p{6.2cm}|p{6.1cm}|p{6.3cm}|}
+\hline
+Academic Mentor, ICS, IITK & Web Secretary, CWC, IITK \textit{ $|$ \href{https://www.iitk.ac.in/cwc/}{\faGlobe}} & Executive, Stamatics Club, IITK $|$ \href{https://mathemania2023.vercel.app/index.html}{\faGlobe}
+    \href{https://github.com/jiyanshud22/Mathemania-2023}{\faGithub} \\ 
+\hline
+\end{tabular}
+\end{center}
+\vspace{-5.5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}    
+
+
+
+
+
+
+% {\begin{tcolorbox}[colback=gray!30]\textbf{Passive Image Forgery Detection} $|$ \textit{Prof. Nisheeth Srivastava} $|$  
+% \href{https://github.com/jiyanshud22/Forgery-Detection}{\faGithub}\hfill\hfill\textit{(Dec'23--Feb'24)}\end{tcolorbox}}
+% \vspace{-4mm}
+% \begin{itemize}
+%   \item Reviewed \textbf{IEEE} research on passive forgery detection, studying \textbf{demosaicing artifacts}, \textbf{JPEG traces}, and \textbf{CFA} methods
+%   \item Implemented \textbf{Error Level Analysis} with \textbf{HSV contour analysis} to expose tampered regions via pixel-level inconsistencies
+  
+%   \item Detected \textbf{fake medical scans, X-rays, and morphed reports}, aligning with ongoing \textbf{cybersecurity forensics research}
+%   \item Classified \textbf{507 bonafide} and \textbf{210 morph} images as \textbf{original or forged}, achieving \textbf{80.1\%} and \textbf{78.7\%} accuracy respectively
+
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30]
+% \textbf{Cells} $|$ \textit{Course Project MTH312} $|$ \textit{Prof. Dootika Vats}  $|$ 
+% \href{https://www.kaggle.com/competitions/assignment-data-science-lab/leaderboard}{\faKaggle} $|$
+% \href{https://github.com/jiyanshud22/MTH312_Group_Project_4}{\faGithub}
+% \hfill (\textit{Feb'25--Mar'25})
+% \end{tcolorbox}
+% \vspace{-4mm}
+
+% \begin{itemize}
+%   \item Clustered 10,000 cells into 8 distinct types via \textbf{spectral clustering}, outperforming \textbf{PCA+CCA} by 79.6\% in \textbf{ARI} metrics
+%  \item Achieved the highest \textbf{ARI score of 0.87981} in class by integrating multi-omics data using a \textbf{Dual-branch Autoencoder}
+ 
+%   \item Visualized cell latent space with \textbf{UMAP}, revealing separation of \textbf{cell type} and overlapping modalities across 2 omics layers
+
+% \end{itemize}
+% \vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30]
+% \textbf{EMG Classification} $|$ \textit{Course Project MTH209} $|$ \textit{Prof. Subhajit Datta} $|$ 
+% \href{https://github.com/jiyanshud22/MTH209-Project}{\faGithub}
+% \hfill (\textit{Feb'24--Apr'24})
+% \end{tcolorbox}
+% \vspace{-4mm}
+
+% \begin{itemize}
+%   \item Developed gesture recognition model using \textbf{6 Time-Domain features} per channel, classifying \textbf{12 gestures} with \textbf{66k} records
+%   \item Captured \textbf{dual-channel sEMG} signals at \textbf{100Hz}, normalized with \textbf{Min-Max} scaling, and segmented into \textbf{1000ms} windows
+%   \item Modeled \textbf{SVM (RBF kernel)}, \textbf{LR (softmax)}, \& \textbf{kNN (Euclidean)}; optimized hyperparameters via \textbf{gradient descent}
+  
+%     \item Applied \textbf{PCA} to identify top features and reduce dimensionality;
+% Achieved \textbf{94.1\%} accuracy with \textbf{SVM} \& \textbf{92.7\%} with \textbf{kNN}
+% \end{itemize}
+% \vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30]{\textbf{Recommendations}} $|$ \textit{Course Project CGS616} $|$ \textit{Prof. Nisheeth Srivastava} $|$  
+% \href{https://github.com/jiyanshud22/Recommendations-CGS616}{\faGithub}
+% \hfill (\textit{Feb'24--Mar'24})
+% \end{tcolorbox}
+% \vspace{-4mm}
+% \begin{itemize}
+%    \item Processed \textbf{MovieLens-100k} dataset (943 users×1682 movies), incorporating user demographics, genres, timestamped ratings  
+%    \item Implemented \textbf{item-based}, \textbf{user-based}, \& \textbf{SVD} models; designed \textbf{hybrid recommender} integrating similarity+factorization
+%    \item Predicted ratings for unwatched movies using \textbf{cosine similarity}–based \textbf{collaborative filtering} and \textbf{SVD}, boosting relevance
+   
+% \end{itemize}
+
+% \vspace{-3mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{tcolorbox}[colback=gray!30]{\textbf{World Demographics}} $|$ \textit{Course Project MTH208} $|$ \textit{Prof. Dootika Vats} $|$ 
+% \href{https://github.com/jiyanshud22/World-Demographics/tree/main}{\faGithub}
+% \hfill\hfill(\textit{Aug'23--Nov'23})
+
+% \end{tcolorbox}
+% \vspace{-4mm}
+% \begin{itemize}
+
+%     \item \textbf{Scraped demographic indicators} (population, fertility, mortality, GDP) for \textbf{115+} countries over \textbf{50} years using \textbf{R rvest}  
+%     \item Normalized variables for cross-sectional analysis and built \textbf{R Shiny} App, enabling \textbf{Data Visualization} in structured manner 
+%     \item \textbf{Data interpretation} using \textbf{heatmaps and statistical measures}, identifying \textbf{outliers, patterns, trends} and \textbf{exceptions} 
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vspace{-6mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{\textbf{\begin{tcolorbox}{\textsc{TECHNICAL SKILLS}}\end{tcolorbox}}}
+\vspace{-5.5mm}
+\noindent
+\begin{center}
+\begin{tabular}{p{0.98\linewidth}}
+C \textbar{} C++ \textbar{} Python \textbar{} R \textbar{} SQL \textbar{} HTML \textbar{} CSS \textbar{} \LaTeX  \textbar{} NumPy \textbar{} Pandas \textbar{} Matplotlib \textbar{} scikit-learn \textbar{} TensorFlow \textbar{} PyTorch \textbar{} statsmodels \textbar{} tseries \textbar{} pracma \textbar{} Tidyverse \textbar{} ggplot2 \textbar{} R Shiny \textbar{} Rcpp \textbar{} Rvest \textbar{} RMarkdown \textbar{} Quarto \textbar{} Profvis \textbar{} Plotly \textbar{} RStudio\\
+\end{tabular}
+\end{center}
+\vspace{-5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{tcolorbox}\textbf{\textsc{RELEVANT COURSES}} \hfill 
+{\small\textit{* $\rightarrow$ A, ** $\rightarrow$ A*}\end{tcolorbox}
+\vspace{-4mm}
+\bgroup
+\def\arraystretch{1.15}
+\begin{center}
+\begin{tabular}{|p{6.2cm}|p{6.1cm}|p{6.3cm}|}
+\hline
+Data Structure \& Algorithm & Introduction to Machine Learning*&AI Techniques in Data Mining*  \\ 
+\hline
+Data Science Lab (\Romannum{1}),(\Romannum{2}) \& (\Romannum{3})* & Human Centered Computing**   & Computational Cognitive Science**\\ 
+\hline
+Linear Algebra* & Time Series Analysis   & Matrix Algebra \& Linear Estimation*
+\\ 
+\hline
+\end{tabular}
+\end{center}
+\vspace{-5mm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
